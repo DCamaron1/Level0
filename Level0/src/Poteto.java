@@ -5,7 +5,8 @@ public class Poteto {
 		int num = 1;
 		String answer = JOptionPane.showInputDialog(null, "Do you want to read a poem?");
 		if (answer.equals("yes")) {
-			String answer2 = JOptionPane.showInputDialog(null,"What do you want to count with?");
+			String answer2 = JOptionPane.showInputDialog(null,"How many times do you want it to repeat?");
+			int times=Integer.parseInt(answer2);
 			while (num < 8) {
 				if (num == 4) {
 					System.out.print(num+", ");
