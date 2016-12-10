@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class ChangeCalculator {
 	public static void main(String[] args) {
-		int six = 3;
+		int six = 6;
 		while(six<1){
 			String countChange = JOptionPane.showInputDialog("Do you want me to count your change?");
 			if (countChange.equals("yes")) {
